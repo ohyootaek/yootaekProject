@@ -40,3 +40,23 @@
 </body>
 
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js">/* ES5로 변환 */</script>
+<script type="text/babel">
+
+    const cities=["서울","부산","제주"];
+    const x = cities[0];
+    const y = cities[1];
+    const z = cities[2];
+
+    console.log(cities[0], cities[1], cities[2]);
+    console.log(x, y, z);
+    console.log(...cities);
+
+    const east = ["u", "z", "a"];
+    const west = ["w", "e", "t"];
+    console.log(east.concat(west));
+    console.log(...est,...west);
+    const countries = [...east,...west];
+    console.log(countries);
+
+</script>
